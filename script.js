@@ -10,20 +10,19 @@ class Rectangle {
 	get height(){
 		return this._height;
 	}
-	get Area(){
+	getArea(){
 		return this.width*this.height;
 	}
 	class Square extend Rectangle {
 	constructor(side){
 		super(side,side);
 	}
-	get perimeter(){
+	getPerimeter(){
 		return this.width*4;
 	}
 	}
 }
 
-class Square extends Animal {}
 
 // Do not change the code below this line
 window.Rectangle = Rectangle;
