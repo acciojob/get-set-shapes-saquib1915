@@ -13,7 +13,7 @@ class Rectangle {
 	get Area(){
 		return this.width*this.height;
 	}
-	class square extend Rectangle {
+	class Square extend Rectangle {
 	constructor(side){
 		super(side,side);
 	}
